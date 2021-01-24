@@ -70,7 +70,7 @@
 </nav>
 </header>
 <?php
-$pass="123456";
+$pass="";
 if (!empty($_POST["pwd"])) {
   $password=$_POST["pwd"];
   if ($password==$pass){
